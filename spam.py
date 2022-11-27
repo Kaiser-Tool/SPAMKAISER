@@ -45,11 +45,14 @@ class SPAM:
         os.system("cls" if os.name == "nt" else "clear")
         title = '\n\n\n<<< TOOL SPAM SMS+CALL >>>'
         banner = '''\n
-    dMMMMb  .aMMMb  dMP dMP         dMMMMb  .aMMMb  dMP dMP 
-   dMP VMP dMP"dMP dMP dMP         dMP VMP dMP"dMP dMP dMP  
-  dMP dMP dMMMMMP dMP dMP         dMP dMP dMMMMMP dMP dMP   
- dMP.aMP dMP dMP dMP.aMP         dMP.aMP dMP dMP dMP.aMP    
-dMMMMP" dMP dMP  VMMMP"         dMMMMP" dMP dMP  VMMMP"     
+     ___________  ________       __  ___________      ___________  ______      ______    ___       
+("     _   ")|"      "\     /""\("     _   ")    ("     _   ")/    " \    /    " \  |"  |      
+ )__/  \\__/ (.  ___  :)   /    \)__/  \\__/      )__/  \\__/// ____  \  // ____  \ ||  |      
+    \\_ /    |: \   ) ||  /' /\  \  \\_ /            \\_ /  /  /    ) :)/  /    ) :)|:  |      
+    |.  |    (| (___\ || //  __'  \ |.  |            |.  | (: (____/ //(: (____/ //  \  |___   
+    \:  |    |:       :)/   /  \\  \\:  |            \:  |  \        /  \        /  ( \_|:  \  
+     \__|    (________/(___/    \___)\__|             \__|   \"_____/    \"_____/    \_______) 
+                                                                                               "     
                                                                                               
                                \n\n'''
         print(Colorate.Vertical(Colors.DynamicMIX((Col.light_green, Col.light_gray)), Center.XCenter(title)) + Colorate.Vertical(Colors.DynamicMIX((Col.light_red, Col.light_blue)), Center.XCenter(banner)))
